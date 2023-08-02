@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Porsche-font';
+    src: url(font/PorscheNext-Regular.otf);
+}
+*{
+    font-family: Porsche-font,sans-serif;
+    margin: 0;
+    
+
+}
+.chat{
+    background-color: rgb(98, 102, 105);
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    position: fixed;
+    right: 20px;
+    top:630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 4px rgb(0,0,0,.5);
+}
+.chat img{
+   width: 50px;
+   height: 50px;
+
+}
+.chat img:hover{
+    cursor: pointer;
+}

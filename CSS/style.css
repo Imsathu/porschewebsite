@@ -1,0 +1,306 @@
+.nav-bar{
+display: grid;
+border-style: solid;
+border-bottom: none;
+border-left: none;
+border-right: none;
+border-width: 1.5px;
+border-color: rgba(0, 0,0,.05);
+height:82px ;
+flex-direction: row;
+align-items: center;
+justify-content:center ;
+justify-content: space-between;
+max-width: 2560px;
+min-width: 320px;
+
+}
+.menu-container{
+    width: 70px;
+    height: 30px;
+    position: relative;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 150;
+    
+    
+}
+.menu-back{
+    width: 70px;
+    height: 30px;
+    background-color: rgba(149, 152, 153,.20);
+    position: absolute;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    opacity: 0;
+    z-index: 151;
+    transition: .3s;
+}
+.menu-container div{
+    margin-bottom: 1px;
+    
+}
+
+.menu-back:hover
+{
+   cursor: pointer;
+   opacity: 1;
+   transition: .3s;
+}
+.menu-container img
+{
+width: 24px;
+height: 24px;
+padding-right: 2px;
+
+}
+.porsche{
+    position: absolute;
+    padding-left: 660px;
+    
+}
+.porsche img{
+    width: 230px;
+    height: 200px;
+    
+}
+.porsche img:hover{
+    cursor: pointer;
+}
+.banner img{
+    height: 585px;
+    width: 1519px;
+    
+}
+.banner{
+    position: relative;
+    display: flex;
+}
+.banner-text-container{
+    width:1200px;
+    height: 150px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 50px;
+    left:100px;
+
+}
+.banner-text-container img{
+    width:25px;
+    height: 25px;
+    margin-top: 25px;
+    margin-left: 2px;
+}
+.banner-text1{
+    position: absolute;
+    bottom: 78px;
+    left:30px;
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    width:600px;
+    transition: .3s;
+}
+.banner-text2{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    left: 30px;
+    bottom: 55px;
+    width:600px;
+    transition: .3s;
+}
+.button-container1{
+    background-color:transparent;
+    width: 60px;
+    height: 520px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    opacity: 0;
+    transition: .3s;
+    
+}
+.button-container2{
+    background-color: transparent;
+    width: 60px;
+    height: 520px;
+    position: absolute;
+    top:0;
+    right: 0px;
+    opacity: 0;
+    transition: .3s;
+    
+}
+
+.lbutton{
+    width: 50px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 300px;
+    border: none;
+    opacity: 0;
+    transition: .3s;
+}
+.rbutton{
+    width: 50px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    margin-top: 300px;
+    border: none;
+    opacity: 0;
+    transition: .3s;
+    
+}
+.rbutton-top{
+    width: 50px;
+    height: 50px;
+    color: #D5001C;
+    position: absolute;
+    right: 10px;
+    margin-top: 300px;
+    border: none;
+    opacity: 0;
+    transition: .3s;
+}
+.button-container1:hover .lbutton-top
+{
+    width: 50px;
+    height: 50px;
+    background-color: #D5001C;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 300px;
+    cursor: pointer;
+    opacity: 1;
+    transition: .3s;
+}
+.lbutton-top{
+    width: 50px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 300px;
+    border: none;
+    opacity: 0;
+    transition: .3s;
+}
+.lbutton img,
+.lbutton-top img
+{
+    width: 12px;
+    height: 12px;
+    
+
+}
+.button-container2:hover .rbutton-top
+{
+    width: 50px;
+    height: 50px;
+    background-color: #D5001C;
+    position: absolute;
+    right: 10px;
+    margin-top: 300px;
+    cursor: pointer;
+    transition: .3s;
+    opacity: 1;
+    
+}
+
+
+.rbutton img,
+.rbutton-top img
+{
+    width: 12px;
+    height: 12px;
+}
+
+.banner:hover .button-container1,
+.banner:hover .button-container2,
+.banner:hover .lbutton,
+.banner:hover .rbutton
+{
+opacity: 1;
+transition: .3s;
+}
+.banner:hover{
+    cursor: pointer;
+}
+.banner-text-container:hover .banner-text1
+{
+    position: absolute;
+    bottom: 78px;
+    left:30px;
+    font-size: 48px;
+    font-weight: 600;
+    color: #D5001C;
+    width:600px;
+    transition: .3s;
+}
+.banner-text-container:hover .banner-text2
+{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 600;
+    color: #D5001C;
+    left: 30px;
+    bottom: 55px;
+    width:600px;
+    transition: .3s;
+}
+.scrolls{
+    
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    align-items: center;
+}
+.scroll1{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color:#D5001C;
+    margin-right: 10px;
+}
+.scroll2,
+.scroll3
+{
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: rgb(162, 161, 161);
+   margin-right: 10px;
+
+}
+.nav-bar .menu:hover{
+    cursor: pointer;
+}
+.banner2{
+    opacity: 1;
+    
+}
+
+.scroll1:hover .banner1{
+opacity: 1;
+}
+

@@ -1,0 +1,82 @@
+.change-country{
+    width: 100%;
+    height: 330px;
+    background-color: rgb(25, 31, 34);
+    position: relative;
+}
+.change-county-container{
+    width: 85.8%;
+    height: 240px;
+    margin-left: 7.1%;
+    top:30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    
+    
+    
+}
+.change-county-head{
+    width: 100%;
+    height: 60px;
+    
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.change-country-row2{
+    width: 100%;
+    height: 60px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+   
+}
+.change-country-row3{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+    
+    
+}
+
+.final{
+    width: 100%;
+    height: 70px;
+    color:white;
+   
+}
+.dropdown1{
+   height: 50px;
+   width: 300px;
+   margin-right: 13px;
+   font-size: 16px;
+   color: white;
+   background-color: rgb(62, 74, 81);
+   border: none;
+}
+.dropdown2{
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(62, 74, 81);
+    border: none;
+ }
+select option:hover{
+    color: #D5001C;
+    
+ }
+ .hr-final{
+    color: rgba(0,0,0,.05);
+ }

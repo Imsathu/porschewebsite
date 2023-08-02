@@ -1,0 +1,199 @@
+.models{
+   display: flex;
+    height:103px ;
+    max-width: 2560px;
+    min-width: 320px;
+    align-items: center;
+    padding-left: 100px;
+    }
+.models-text{
+    font-weight: 600;
+    font-size: 36px;
+}
+.cars{
+   
+    height: 760px;
+    width: 100%;
+
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 380px;
+    
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 380px;
+    
+}
+.row1-col1,
+.row1-col2,
+.row1-col3,
+.row2-col1,
+.row2-col2,
+.row2-col3{
+    width: 33.33%;
+    position: relative;
+    
+}
+.row1 img,
+.row2 img
+{
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+
+}
+.models-buttons{
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 50px;
+width:400px;
+position: absolute;
+left: 30px;
+bottom: 30px;
+}
+.btn-build{
+    width: 163.7px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
+    background-color: white;
+    border:none;
+    white-space: nowrap;
+    transition: .3s;
+    padding-left: 20px;
+}
+.btn-all{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+    border-width: 1px;
+    border-color: white;
+    white-space: nowrap;
+    color: white;
+    border-style: solid;
+    transition: .3s;
+    position: relative;
+    
+}
+.all-bottom img{
+    width: 12px;
+    height: 12px;
+    left:20px;
+    top:17px;
+    position: absolute;
+}
+.all-top img{
+    width: 12px;
+    height: 12px;
+    left:20px;
+    top:17px;
+    position: absolute;
+    opacity: 0;
+    transition: .3s;
+}
+.btn-build img{
+    width:25px;
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    bottom: 14px;
+    
+}
+.exit-top img{
+    opacity: 0;
+    width:25px;
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    bottom: 14px;
+    transition: .3s;
+}
+
+.btn-all:hover{
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: transparent;
+    border-width: 1px;
+    border-color:#D5001C;
+    white-space: nowrap;
+    color: #D5001C;
+    border-style: solid;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+.btn-build:hover{
+    width: 163.7px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
+    background-color:#D5001C;
+    border:none;
+    white-space: nowrap;
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+    opacity: 1;
+}
+.btn-build:hover .exit-top img{
+    opacity: 1;
+    width:25px;
+    height: 25px;
+    position: absolute;
+    left: 10px;
+    bottom: 14px;
+    transition: .3s;
+}
+.models-captions{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 100px;
+    width:200px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    
+ }
+ .models-caption-main{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+ }
+ .models-caption-sub{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+ }
+ .overlay
+ {
+    background-color: rgba(0,0,0,.2);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+ }
+ .btn-all:hover .all-top img{
+    opacity: 1;
+    transition: .3s;
+ }
+ .btn-all:hover .all-bottom img{
+    opacity: 0;
+   
+ }
+
